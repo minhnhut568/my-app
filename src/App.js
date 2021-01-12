@@ -1,12 +1,14 @@
 import logo from "./logo.svg";
 import "./App.css";
 import StateFull from "./Components/StateFull";
+import StateLess from "./Components/StateLess";
 
 function App() {
   return (
     <div className="App">
       <h1>Fix</h1>
       <StateFull />
+      <StateLess></StateLess>
       {/* Cach 2 */}
       {/* <StateFull></StateFull> */}
 
