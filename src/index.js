@@ -5,9 +5,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
+  //Noi dung dua ra man hinh
   <React.StrictMode>
     <App />
   </React.StrictMode>,
+  //Vi tri dua ra man hinh
   document.getElementById('root')
 );
 

@@ -1,10 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import StateFull from "./Components/StateFull";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <h1>Fix</h1>
+      <StateFull />
+      {/* Cach 2 */}
+      {/* <StateFull></StateFull> */}
+
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -17,7 +23,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }
