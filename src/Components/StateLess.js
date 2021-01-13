@@ -1,4 +1,4 @@
-
+//La component duoc viet duoi dang function
 
 function StateLess(){
     return (

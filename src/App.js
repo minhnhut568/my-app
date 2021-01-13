@@ -2,13 +2,17 @@ import logo from "./logo.svg";
 import "./App.css";
 import StateFull from "./Components/StateFull";
 import StateLess from "./Components/StateLess";
+import ExampleLayout from "./ExampleLayout";
+import DemoDataBinding from "./DataBinding/DemoDataBinding";
 
 function App() {
   return (
     <div className="App">
-      <h1>Fix</h1>
+      <ExampleLayout></ExampleLayout>
+      {/* <h1>Fix</h1>
       <StateFull />
-      <StateLess></StateLess>
+      <StateFull />
+      <StateLess></StateLess> */}
       {/* Cach 2 */}
       {/* <StateFull></StateFull> */}
 
@@ -26,6 +30,7 @@ function App() {
           Learn React
         </a>
       </header> */}
+      <DemoDataBinding></DemoDataBinding>
     </div>
   );
 }

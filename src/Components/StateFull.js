@@ -1,3 +1,4 @@
+//La component duoc viet duoi dang class
 import React, {Component} from "react";
 
 class StateFull extends Component {
